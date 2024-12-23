@@ -5,11 +5,11 @@
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <[repository-url](https://github.com/Estou-maker/jacamo-automation/)>
+   git clone https://github.com/Estou-maker/jacamo-automation/
    ```
 2. Navigate to the project directory:
    ```bash
-   cd <project-directory>
+   cd jacamo-automation
    ```
 3. Install dependencies using npm:
    ```bash
