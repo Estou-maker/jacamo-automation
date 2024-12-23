@@ -5,7 +5,7 @@
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/Estou-maker/jacamo-automation/)>
    ```
 2. Navigate to the project directory:
    ```bash
