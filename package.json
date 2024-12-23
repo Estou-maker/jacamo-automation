@@ -1,0 +1,26 @@
+{
+  "name": "jacamo-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require features/step_definitions/*.ts",
+    "test-with-report": "cucumber-js --require-module ts-node/register --require features/step_definitions/*.ts --format json:./reports/cucumber_report.json && ts-node utilities/generate-html-report.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "playwright": "^1.49.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "@types/node": "^22.10.2",
+    "chai": "^5.1.2",
+    "cucumber-html-reporter": "^6.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

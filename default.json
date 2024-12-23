@@ -1,0 +1,15 @@
+{
+    "baseURL": "https://www.jacamo.co.uk",
+    "loginURL": "/api/sign-in?redirectTo=/",
+    "timeout": 30000,
+    "credentials": {
+      "valid": {
+        "username": "eslemtouhami4@gmail.com",
+        "password": "241095Az"
+      },
+      "invalid": {
+        "username": "eslemtouhami3@gmail.com",
+        "password": "241095Aze"
+      }
+    }
+  }
